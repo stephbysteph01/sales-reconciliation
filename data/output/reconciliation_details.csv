@@ -1,0 +1,64 @@
+ID_Vendita,Filiale,Cliente,Data_Vendita,Importo,Metodo_Pagamento,Data_Incasso,Importo_Incassato,Differenza_Importo,Note,Categoria
+FIR0001,firenze,agnolo mercadante,2024-06-24,2919.81,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0008,firenze,paloma mancini,,577.79,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0015,firenze,annalisatuzzolino,2024-05-04,1261.56,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0022,firenze,giosue tamborini,2024-09-26,2270.22,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0029,firenze,luciana valentino,2024-01-14,1597.32,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0036,firenze,enziopetrucelli,2024-05-23,1682.18,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0043,firenze,achille munari,2024-07-26,2875.28,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0050,firenze,lauretta ferraris,2024-10-06,1585.62,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0057,firenze,antonietta mancini,,2878.49,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0064,firenze,dott. tina montesano,,2157.43,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0071,firenze,dott. elvira ferragamo,2024-09-03,254.11,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0078,firenze,dott. alfredo boezio,2024-05-14,78.07,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0085,firenze,veronicapennetta,2024-04-19,2648.17,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0005,milano,sophia ligorio-calbo,2024-05-09,1273.71,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0012,milano,dott. riccardo gullotta,2024-09-10,945.56,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0019,milano,dianaspinola,,187.7,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0026,milano,tatiana pastine,2025-01-02,1457.48,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0033,milano,ferdinandopetrocelli,2024-03-05,1891.55,Contanti,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0040,milano,sonia smirnoff-scarpa,2024-07-09,2210.56,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0047,milano,cipriano roncalli,2024-07-17,1458.2,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0054,milano,ermanno navone,,2813.94,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0061,milano,sandra crispi,2024-07-30,870.82,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0068,milano,rosaria cerutti,,2144.6,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+MIL0075,milano,maurilio zampa,2024-10-13,3120.64,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0004,roma,oreste sbarbaro-crispi,,2395.67,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0011,roma,diana vercelloni,2024-06-09,1515.9,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0018,roma,fiamma mannoia,2024-08-31,794.13,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0025,roma,dott. napoleone tanzini,,1253.94,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0032,roma,hugo bettin,,516.86,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0039,roma,benedetto bonaventura-leonetti,2024-10-21,2050.79,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0046,roma,liberto doria,,2677.1,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0053,roma,panfilo ferrara-peranda,,1661.04,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0060,roma,sig.alphonsbosurgi,,1274.73,Paypal,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0067,roma,annibale trobbiani,2025-01-03,2674.9,Bonifico,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0074,roma,dott. stefania notarbartolo,2024-05-06,2839.6,Assegno,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+ROM0081,roma,sig.ra rita peano,,312.64,Carta,,,,Vendita senza incasso corrispondente,Vendite senza incasso
+FIR0013,firenze,valerio tomasetti,2024-02-01,2194.8,Paypal,2024-08-19,1427.13,-767.6700000000001,Importo incassato diverso dalla vendita,Incassi non coerenti
+FIR0041,firenze,oreste salvemini,2024-10-17,1623.38,Assegno,2024-07-07,567.77,-1055.6100000000001,Importo incassato diverso dalla vendita,Incassi non coerenti
+FIR0075,firenze,liviobenedetti-morucci,2024-01-20,371.37,Bonifico,2024-01-20,346.38,-24.99000000000001,Importo incassato diverso dalla vendita,Incassi non coerenti
+MIL0002,milano,atenulf ginesio,2024-12-15,1045.77,Contanti,2024-05-03,583.61,-462.15999999999997,Importo incassato diverso dalla vendita,Incassi non coerenti
+MIL0034,milano,arnulfo pirelli,2024-10-23,283.1,Bonifico,2024-10-23,260.66,-22.439999999999998,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0012,roma,sig.ra nina cerutti,2024-10-12,285.99,Paypal,2024-10-12,261.99,-24.0,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0021,roma,donato battelli,2025-01-01,337.82,Bonifico,2025-01-01,317.61,-20.20999999999998,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0034,roma,valerio galilei,2024-12-04,187.75,Contanti,2024-12-04,203.44,15.689999999999998,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0061,roma,umberto bompiani,2024-04-29,157.56,Assegno,2024-04-29,139.78,-17.78,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0078,roma,giuliano conti,,198.72,Contanti,2024-10-17,216.61,17.890000000000015,Importo incassato diverso dalla vendita,Incassi non coerenti
+ROM0080,roma,ottavio vezzali,,327.41,Paypal,2024-07-31,306.72,-20.689999999999998,Importo incassato diverso dalla vendita,Incassi non coerenti
+FIR0073,firenze,bianca almagia,2024-05-14,324.0,Assegno,,,,ID duplicato in vendite,Vendite duplicate
+FIR0073,firenze,bianca almagia,2024-02-05,312.78,Assegno,,,,ID duplicato in vendite,Vendite duplicate
+MIL0061,milano,sandra crispi,2024-07-30,870.82,Assegno,,,,ID duplicato in vendite,Vendite duplicate
+MIL0061,milano,sandra crispi,2024-05-22,876.52,Assegno,,,,ID duplicato in vendite,Vendite duplicate
+ROM0048,roma,vitomoneta,2024-11-25,2262.68,Bonifico,,,,ID duplicato in vendite,Vendite duplicate
+ROM0048,roma,vitomoneta,,2245.01,Bonifico,,,,ID duplicato in vendite,Vendite duplicate
+FIR0013,,,,,,2024-02-01,2210.03,,ID duplicato in incassi,Incassi duplicati
+FIR0041,,,,,,2024-10-17,1655.34,,ID duplicato in incassi,Incassi duplicati
+FIR0073,,,,,,2024-05-14,329.26,,ID duplicato in incassi,Incassi duplicati
+FIR0073,,,,,,2024-02-05,312.04,,ID duplicato in incassi,Incassi duplicati
+MIL0002,,,,,,2024-12-15,1065.72,,ID duplicato in incassi,Incassi duplicati
+ROM0048,,,,,,2024-11-25,2245.46,,ID duplicato in incassi,Incassi duplicati
+ROM0048,,,,,,2025-01-05,2224.68,,ID duplicato in incassi,Incassi duplicati
+FIR0013,,,,,,2024-08-19,1427.13,,ID duplicato in incassi,Incassi duplicati
+FIR0041,,,,,,2024-07-07,567.77,,ID duplicato in incassi,Incassi duplicati
+MIL0002,,,,,,2024-05-03,583.61,,ID duplicato in incassi,Incassi duplicati

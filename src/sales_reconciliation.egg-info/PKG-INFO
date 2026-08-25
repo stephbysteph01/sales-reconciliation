@@ -1,0 +1,77 @@
+Metadata-Version: 2.4
+Name: sales-reconciliation
+Version: 0.1.0
+Summary: Consolidamento e riconciliazione di dati Excel di vendita e incasso
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: Faker>=30.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Dynamic: license-file
+
+# Sales Reconciliation
+
+Progetto Python per consolidare file Excel di vendite di tre punti vendita e riconciliarli con un file di incassi, individuando anomalie come vendite senza incasso, importi incoerenti, duplicati e clienti non standardizzati.
+
+## Obiettivo
+
+Il progetto genera dati finti realistici con Faker in italiano e li salva in file Excel `.xlsx`, poi normalizza e riconcilia le informazioni per evidenziare discrepanze di business.
+
+## Struttura
+
+- `src/sales_reconciliation/data_generator.py`: genera i file Excel di input.
+- `src/sales_reconciliation/reconcile.py`: pulisce e riconcilia i dati.
+- `tests/test_reconcile.py`: test automatici minimi.
+- `data/raw/`: file Excel generati in input.
+- `data/output/`: report di riconciliazione esportato.
+
+## Setup
+
+```bash
+python -m pip install -e .
+```
+
+## Generazione dati
+
+```bash
+python -m sales_reconciliation.data_generator
+```
+
+Vengono creati:
+
+- `data/raw/vendite_roma.xlsx`
+- `data/raw/vendite_milano.xlsx`
+- `data/raw/vendite_firenze.xlsx`
+- `data/raw/incassi.xlsx`
+
+## Esecuzione della riconciliazione
+
+```python
+from pathlib import Path
+from sales_reconciliation.reconcile import export_reconciliation_report, read_payments_file, read_sales_files, reconcile_sales_and_payments
+
+sales_df = read_sales_files(Path("data/raw"))
+payments_df = read_payments_file(Path("data/raw/incassi.xlsx"))
+report = reconcile_sales_and_payments(sales_df, payments_df)
+print(report)
+export_reconciliation_report(report, Path("data/output/report.xlsx"))
+```
+
+## Contenuto di "sporco"
+
+I dati generati includono in modo intenzionale:
+
+- circa 15% di vendite senza incasso corrispondente;
+- importi di incasso lievemente diversi dalla vendita;
+- qualche ID_Vendita duplicato;
+- nomi dei clienti inconsistenti tra i file;
+- date mancanti o in formati differenti.
+
+## Test
+
+```bash
+pytest -q
+```
